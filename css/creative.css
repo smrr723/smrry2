@@ -37,6 +37,14 @@
     color: #000;
     letter-spacing: 3px;
 }
+.btn-resume:hover {
+   transform: translateY(-3px);
+   transition: all .15s ease;
+   background-color: #fff;
+   color: red;
+   box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
 .adobe-icon {
     height: 20px;
     width: 20px;
@@ -56,9 +64,12 @@
     display: inline-block;
     border: 1px solid #3fc6a7;
     border-radius: 2px;
+    transition: all .15s ease;
 }
 .textBlock:hover {
     background-color: #3fc6a7;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgba(98, 188, 204, 0.47), 0 3px 6px rgba(0,0,0,.08);
 }
 .textBlock:click {
     background-color: #3fc6a7;
