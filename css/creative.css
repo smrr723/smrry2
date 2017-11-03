@@ -69,7 +69,7 @@
 .textBlock:hover {
     background-color: #3fc6a7;
     transform: translateY(-3px);
-    box-shadow: 0 7px 14px rgba(98, 188, 204, 0.47), 0 3px 6px rgba(0,0,0,.08);
+    /*box-shadow: 0 7px 14px rgba(98, 188, 204, 0.47), 0 3px 6px rgba(0,0,0,.08);*/
 }
 .textBlock:click {
     background-color: #3fc6a7;
