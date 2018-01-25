@@ -76,8 +76,40 @@
 }
 .portfolio {
     background-color: #fffffd;
-    padding: 75px 0px;
+    padding: 0px 0px;
 }
+.portItem {
+  height: 30vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#moneydash:hover {
+background: #2eb7f7;
+}
+
+#moneydash {
+  background: linear-gradient(90deg, #6027c4 0%,#2eb7f7 100%,#7db9e8 100%,#2eb7f7 101%);
+}
+#paranormal {
+  background: linear-gradient(45deg, blue, purple);
+}
+#paranormal:hover {
+  background: #2eb7f7;
+}
+
+#todo {
+  background: linear-gradient(45deg, aqua, blue);
+}
+#todo:hover {
+  background: #2eb7f7;
+}
+
 .contact {
     background-color: #0f0f0f;
     padding-top: 50px;
@@ -95,6 +127,11 @@
 }
 .fa {
     color: white;
+
+}
+
+.fa:hover {
+   color: grey;
 }
 .radius {
     border-radius: 50%;
